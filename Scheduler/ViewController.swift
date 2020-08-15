@@ -12,9 +12,20 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        view.backgroundColor = #colorLiteral(red: 1, green: 0, blue: 0, alpha: 1)
     }
 
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        present(SecondViewController(), animated: true)
+    }
+}
 
+class SecondViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        view.backgroundColor = #colorLiteral(red: 0.1215686277, green: 0.01176470611, blue: 0.4235294163, alpha: 1)
+    }
 }
 
