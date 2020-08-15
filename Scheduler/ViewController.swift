@@ -17,7 +17,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonPressed(_ sender: UIButton) {
-        present(SecondViewController(), animated: true)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let secondVC = storyboard.instantiateViewController(identifier: "SecondViewController")
+
+        show(secondVC, sender: self)
     }
 }
 

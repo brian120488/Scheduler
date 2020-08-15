@@ -40,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="-2009" y="105"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="K7f-J9-AE8">
             <objects>
-                <viewController id="MKh-pl-GqR" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondViewController" id="MKh-pl-GqR" customClass="SecondViewController" customModule="Scheduler" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oIT-Dj-4tG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
